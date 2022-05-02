@@ -1,0 +1,21 @@
+body { 
+    color: rgb(98, 234, 225); 
+}
+
+.content p { 
+    color: rgb(200, 150, 247);
+}
+
+h1.outset { 
+    border-style:outset;
+    width: 380px; 
+
+}
+
+#rcorners1 {
+    border-radius: 15px 50px;
+    background: #f188c5;
+    padding: 20px; 
+    width: 185px;
+    height: 64px;
+}
