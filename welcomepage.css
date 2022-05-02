@@ -1,5 +1,6 @@
 
 
+
 body { 
     color: rgb(98, 234, 225); 
 }
@@ -8,11 +9,16 @@ body {
     color: rgb(160, 245, 150);
 }
 
+/* h1 */ 
+h1.center {
+    text-align: center;
+    border: dotted, 3px, solid red;
+}
 h1.dotted { 
     border-style:dotted;
-    width: 530px; 
-
+    width: 475px;
 }
+
 
 #rcorners1 {
     border-radius: 15px 50px;
@@ -24,4 +30,46 @@ h1.dotted {
 
 .center {
     text-align: center;
+    border: 4px rgb(36, 60, 219);
 }
+
+/* img1 - sporky
+makes the hover text thingy */
+.container {
+    position: relative;
+    width: 50%;
+  }
+  .image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #7ed2ef;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+    opacity: 0.6;
+  }
+  
+  .container:hover .overlay {
+    width: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+    /* ckjdfkjjhaf */
