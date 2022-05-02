@@ -9,7 +9,7 @@ body {
     color: rgb(160, 245, 150);
 }
 
-/* h1 */ 
+/* h1 center together with dotted border not working*/ 
 h1.center {
     text-align: center;
     border: dotted, 3px, solid red;
@@ -30,7 +30,6 @@ h1.dotted {
 
 .center {
     text-align: center;
-    border: 4px rgb(36, 60, 219);
 }
 
 /* img1 - sporky
