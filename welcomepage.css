@@ -3,12 +3,12 @@ body {
 }
 
 .content p { 
-    color: rgb(200, 150, 247);
+    color: rgb(160, 245, 150);
 }
 
-h1.outset { 
-    border-style:outset;
-    width: 380px; 
+h1.dotted { 
+    border-style:dotted;
+    width: 530px; 
 
 }
 
