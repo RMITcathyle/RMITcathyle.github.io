@@ -1,8 +1,9 @@
 
 
-
+/* body edits */ 
 body { 
-    color: rgb(98, 234, 225); 
+    color: rgb(227, 225, 250); 
+    background-color:rgb(1,31,75)  ;
 }
 
 .content p { 
@@ -10,10 +11,6 @@ body {
 }
 
 /* h1 center together with dotted border not working*/ 
-h1.center {
-    text-align: center;
-    border: dotted, 3px, solid red;
-}
 h1.dotted { 
     border-style:dotted;
     width: 475px;
@@ -38,9 +35,11 @@ makes the hover text thingy */
     position: relative;
     width: 50%;
   }
+
+  
   .image {
     display: block;
-    width: 100%;
+    width: 450px;
     height: auto;
   }
   .overlay {
@@ -57,7 +56,7 @@ makes the hover text thingy */
   }
   
   .container:hover .overlay {
-    width: 100%;
+    width: 450px;
   }
   
   .text {
