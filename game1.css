@@ -4,7 +4,7 @@
     font-family: "Comic Sans MS", "Comic Sans", cursive;
   }
 
-?/* header shit */
+/* header shit */
 .headerText { 
     background-color:rgb(0, 0, 0);
     color:rgb(231, 213, 121);
@@ -23,6 +23,3 @@ body {
     color: rgb(160, 245, 150);
 }
 
-.font {
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
-}
