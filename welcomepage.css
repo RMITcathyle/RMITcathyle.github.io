@@ -3,14 +3,22 @@
 .font {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
+
+
 /* header text style */
 .headerText { 
   background-color:rgb(0, 0, 0);
-  color:rgb(246, 229, 147);
+  color:rgb(231, 213, 121);
   padding:7px 7px 7px 7px;
   margin:10px 240px 10px 240px;
-  text-align: center;
+  text-align:center;
   border-style:dotted;
+  
+}
+
+.nameText { 
+  font-size:22px;
+  padding:0.2px 0.2px 0.2px 0.2px; 
 }
 
 /* body text edits */ 
@@ -19,9 +27,8 @@ body {
     background-color:rgb(15, 47, 93);
 }
 
-.content p { 
-    color: rgb(160, 245, 150);
-    font-family: Comic Sans MS, Comic Sans, cursive;
+.myText { 
+    text-align:center;
 }
 
 /* h1 center together with dotted border not working*/ 
@@ -81,7 +88,15 @@ makes the hover text thingy */
     -ms-transform: translate(-50%, -50%);
   }
 
+  /* image align */
+  img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
     /* button */ 
+    /* FIXXX MEEEEEE*/
     .card { 
     padding: 16px;
     text-align: center;

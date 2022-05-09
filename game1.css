@@ -1,5 +1,19 @@
 
-/* body edits */ 
+/* font */
+.font {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+  }
+
+?/* header shit */
+.headerText { 
+    background-color:rgb(0, 0, 0);
+    color:rgb(231, 213, 121);
+    padding:7px 7px 7px 7px;
+    margin:auto;
+    text-align:center;
+}
+
+  /* body edits */ 
 body { 
     color: rgb(227, 225, 250); 
     background-color:rgb(15, 47, 93)  ;
