@@ -3,12 +3,20 @@
 .font {
   font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
+/* header text style */
+.headerText { 
+  background-color:rgb(0, 0, 0);
+  color:rgb(246, 229, 147);
+  padding:7px 7px 7px 7px;
+  margin:10px 240px 10px 240px;
+  text-align: center;
+  border-style:dotted;
+}
 
-
-/* body edits */ 
+/* body text edits */ 
 body { 
     color: rgb(227, 225, 250); 
-    background-color:rgb(15, 47, 93)  ;
+    background-color:rgb(15, 47, 93);
 }
 
 .content p { 
@@ -17,9 +25,9 @@ body {
 }
 
 /* h1 center together with dotted border not working*/ 
-h1.dotted { 
+.dotted { 
     border-style:dotted;
-    width: 475px;
+    width: 600px;
 }
 
 
@@ -31,17 +39,13 @@ h1.dotted {
     height: 35px;
 }
 
-.center {
-    text-align: center;
-}
 
-/* img1 - sporky
+/* img - sporky
 makes the hover text thingy */
 .container {
     position: relative;
     width: 50%;
   }
-
 
   .image {
     display: block;
@@ -78,13 +82,27 @@ makes the hover text thingy */
   }
 
     /* button */ 
+    .card { 
+    padding: 16px;
+    text-align: center;
+    background-color: black;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 20px 20px 0 grey, 0 20px 20px 0 grey;
+  }
+
     .button1 {
       transition-duration: 0.4s;
+      width: 100px
     }
     .button1:hover {
       background-color: #4CAF50; /* Green */
       color: white;
+      width:100px;
     } 
+
+    a.link { 
+      color:white;
+    }
 
 
 
