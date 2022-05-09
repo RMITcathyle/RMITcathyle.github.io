@@ -1,4 +1,9 @@
 
+/* font */ 
+.font {
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
 
 /* body edits */ 
 body { 
@@ -8,6 +13,7 @@ body {
 
 .content p { 
     color: rgb(160, 245, 150);
+    font-family: Comic Sans MS, Comic Sans, cursive;
 }
 
 /* h1 center together with dotted border not working*/ 
@@ -78,6 +84,8 @@ makes the hover text thingy */
       background-color: #4CAF50; /* Green */
       color: white;
     } 
+
+
 
 
 

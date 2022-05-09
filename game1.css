@@ -1,0 +1,14 @@
+
+/* body edits */ 
+body { 
+    color: rgb(227, 225, 250); 
+    background-color:rgb(1,31,75)  ;
+}
+
+.content p { 
+    color: rgb(160, 245, 150);
+}
+
+.font {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
