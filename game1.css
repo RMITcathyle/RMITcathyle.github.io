@@ -17,9 +17,12 @@
 body { 
     color: rgb(227, 225, 250); 
     background-color:rgb(15, 47, 93)  ;
+    text-align:left;
 }
 
-.content p { 
-    color: rgb(160, 245, 150);
+.para { 
+  border:max-content;
+  border-style:solid;
+
 }
 
