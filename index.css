@@ -13,7 +13,6 @@
   margin:10px 240px 10px 240px;
   text-align:center;
   border-style:dotted;
-  
 }
 
 .nameText { 
@@ -33,22 +32,10 @@ body {
 
 .myText { 
     text-align:center;
+    font-size:18px;
 }
 
-/* buttons
-.btn-group button { 
-  background-color: rgb(255, 142, 200);
-  border: 1.5px rgb(200, 120, 162);
-  color:rgb(0, 0, 0);
-  font-size: 60px;
-  font-family: "Comic Sans MS", "Comic Sans";
-  padding: 10px 24px;
-  cursor: pointer;
-}
-.btn-group button:hover { 
-  background-color: rgb(246, 205, 226) ;
-} */
-
+/* buttons */
 .flex {
   display: flex;
   justify-content: center;
@@ -75,10 +62,6 @@ body {
 
 .button2:hover { 
   background-color:rgb(247, 116, 116) ;
-}
-
-.center { 
-  align-content: center;
 }
 
   /* image align */

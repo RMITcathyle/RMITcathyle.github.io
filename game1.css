@@ -4,25 +4,38 @@
     font-family: "Comic Sans MS", "Comic Sans";
   }
 
-/* header shit */
+/* header */
 .headerText { 
     background-color:rgb(0, 0, 0);
-    color:rgb(231, 213, 121);
-    padding:7px 7px 7px 7px;
-    margin:auto;
+    color:rgb(121, 130, 231);
+    padding:3px 3px;
+    margin:5px 5px;
     text-align:center;
+    border-style:dotted;
+    font-size:15px;
 }
 
   /* body edits */ 
-body { 
-    color: rgb(227, 225, 250); 
-    background-color:rgb(15, 47, 93)  ;
-    text-align:left;
+  body { 
+    color: rgb(0, 0, 0); 
+    background-color:rgb(132, 179, 245);
+    text-align: left;
 }
 
-.para { 
-  border:max-content;
-  border-style:solid;
-
+.myQu { 
+  background-color: rgb(66, 121, 197);
+  color: black;
+  font-size:18px;
+  padding:15px 15px;
+  margin:15px 5px;
 }
+
+   .myCode {
+  background-color: rgb(86, 145, 227);
+  color: black;
+  font-size:18px;
+  padding:15px 15px;
+  margin:15px 5px;
+}
+
 
