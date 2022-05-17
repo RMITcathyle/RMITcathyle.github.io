@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html> 
-    <link rel="stylesheet" href="game2.css">
+    <link rel="stylesheet" href="game1.css">
 
     <head> 
-        <title>  </title>
+        <title>sporky has his scarf</title>
         <div class="headerText"> 
-            <h1> 
-                
+            <h1 class="font"> 
+                goodjob! sporky put on his scarf
             </h1>
 
         </div>
@@ -15,24 +15,59 @@
 
 
     <body class = "font">
+        <div class="myQu"> 
+            <div>
+                Sporky needs to travel to the market to purchase a scarf however my 
+                tiny little legs cannot prolong for long distances therefore I must
+                utilise another means of transportation. The available options are a 
+                shiny, dazzling yellow car , a cute, resilient, sturdy camel or a 
+                small but fiesty scooter. 
+                <br>
+                <br>
+                Analysing the code, decide which option is the most time efficient option for sporky.
+            </div>
+        </div>
+        
+        <pre class="myCode">
+        public class problem1 {
+            public static void main(String[] args) {
+                int carSpeed = 60;
+                int camelSpeed = 80;
+                int scooterSpeed = 40;
+                int walkingSpeed = 20;
+                
+                int carTime;
+                int camelTime;
+                int scooterTime;
+                int walkingTime;
+                
+                int distance = 20;
+                
+                // TIME = SPEED/DISTANCE;
+                carTime = carSpeed/distance;
+                camelTime = camelSpeed/distance;
+                scooterTime = scooterSpeed/distance;
+                walkingTime = walkingSpeed/distance;
+                
+                
+                System.out.println("Sporky travelled for: " + distance + "km");
+                        
+                System.out.print("Car: " + carTime );
+                System.out.println(" hours");
+                
+                System.out.print("Camel: " + camelTime);
+                System.out.println(" hours");
+                
+                System.out.print("Scooter: " + scooterTime);
+                System.out.println(" hours");
+                
+                System.out.print("Walking: " + walkingTime);
+                System.out.println(" hours");
+                
+                }
+            }
+            </pre>
 
-        <p class="para"> 
-        Sporky needs to travel to the market to purchase a scarf however his 
-        tiny little legs cannot prolong for long distances therefore he must
-        utilise another means of transportation. The available options are a 
-        shiny, dazzling yellow car , a cute, resilient, sturdy camel or a 
-        small but fiesty scooter. Analysing the code, decide which option is 
-        the most time efficient option for sporky.
-        <!-- fix posistioning - font size - box -->  
-        </p>
-
-        <!-- BOX w/ the java code problem 
-        formatting and font 
-        -->
-
-        <!-- buttons (car) (camel) (scooter) -->
-
-        <!-- camel is correct ans > goes to next step / qu - other buttons link to try again page -->
 
         <div> 
             <!-- figure out margin -->
@@ -40,6 +75,7 @@
             <img src="images/sporky_camel.png" width="300px"> 
             <img src="images/sporky_scoot.png" width="150px">
 
+            to be continued...
         </div>
 
     </body>
