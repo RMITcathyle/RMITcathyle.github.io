@@ -1,8 +1,15 @@
 /* basically can use this for all the "incorrect" pages */
 
 /* font */ 
-.font {
+font {
     font-family: "Comic Sans MS", "Comic Sans";
   }
+
+  body { 
+    color: rgb(0, 0, 0); 
+    background-color:rgb(130, 178, 245);
+}
+
+
 
   

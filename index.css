@@ -17,13 +17,16 @@
 }
 
 .nameText { 
-  font-size:22px;
+  font-size:24px;
   padding:0.2px 0.2px 0.2px 0.2px; 
+}
+
+.footerText { 
+  font-size:15px;
 }
 
 /* body text edits */ 
 body { 
-
     color: rgb(0, 0, 0); 
     background-color:rgb(130, 178, 245);
 }
@@ -32,58 +35,52 @@ body {
     text-align:center;
 }
 
-/* round button */
-#rcorners1 {
-    border-radius: 15px 50px;
-    background: #f188c5;
-    padding: 15px; 
-    width: 185px;
-    height: 35px;
+/* buttons
+.btn-group button { 
+  background-color: rgb(255, 142, 200);
+  border: 1.5px rgb(200, 120, 162);
+  color:rgb(0, 0, 0);
+  font-size: 60px;
+  font-family: "Comic Sans MS", "Comic Sans";
+  padding: 10px 24px;
+  cursor: pointer;
+}
+.btn-group button:hover { 
+  background-color: rgb(246, 205, 226) ;
+} */
+
+.flex {
+  display: flex;
+  justify-content: center;
 }
 
+.flex-item + .flex-item {
+  margin-left: 10px;
+}
 
-/* img - sporky
-makes the hover text thingy */
-.container {
-    position: relative;
-    width: 50%;
-  }
+.button { 
+  background-color: rgb(255, 142, 200);
+  border: 1.5px rgb(200, 120, 162);
+  color:rgb(0, 0, 0);
+  text-align:center;
+  font-size: 60px;
+  font-family: "Comic Sans MS", "Comic Sans";
+  padding: 13px 26px;
+  cursor: pointer;
+}
 
-  .image {
-    display: block;
-    width: 450px;
-    height: auto;
-  }
-  .overlay {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: #7ed2ef;
-    overflow: hidden;
-    width: 0;
-    height: 100%;
-    transition: .5s ease;
-    opacity: 0.6;
-  }
-  
-  .container:hover .overlay {
-    width: 450px;
-  }
-  
-  .text {
-    white-space: nowrap; 
-    color: white;
-    font-size: 20px;
-    position: absolute;
-    overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
+.button1:hover { 
+  background-color:rgb(154, 248, 168)
+}
 
-  
+.button2:hover { 
+  background-color:rgb(247, 116, 116) ;
+}
+
+.center { 
+  align-content: center;
+}
+
   /* image align */
   img { 
     display: block;
