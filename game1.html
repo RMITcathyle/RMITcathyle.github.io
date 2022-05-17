@@ -11,6 +11,51 @@
         </div>
     </head> 
 
+    <body>
+        <div class="myQu">
+            <div class="font"> 
+                First of all, Sporky needs to check the weather to see if I am appropriately dressed. If it's hot, I will 
+                bring a fan to cool me down and if it's cold, I will bring a scarf to keep me warm. And if the weather is 
+                just right, my current outfit will do.
+
+                <br>
+                <br>
+                Analysing the code, decide what Sporky will need if the <b>input</b> is <b><u>20</b></u> . 
+            </div>
+        </div>
+
+        <!-- fix file name "problem3" -->
+        <pre class="myCode"> 
+        import java.util.Scanner;
+
+        public class problem3 {
+            public static void main(String[]args) {
+                Scanner scnr = new Scanner(System.in);
+                boolean hot;
+                boolean cold;
+                int temperature = scnr.nextInt();
+            
+                hot = temperature > 25;
+                cold = temperature < 20;
+            
+                System.out.print("Sporky needs ");
+
+                if (hot) {
+                    System.out.print("a fan.");
+                }
+                else if (cold) {
+                    System.out.print("a scarf.");
+                }
+                else {
+                    System.out.print("nothing.");
+                }
+            }
+        }
+
+        </pre>
+
+    </body>
+
 
 
 </html>
