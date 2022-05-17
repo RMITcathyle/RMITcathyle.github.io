@@ -54,6 +54,7 @@ body {
   font-family: "Comic Sans MS", "Comic Sans";
   padding: 13px 26px;
   cursor: pointer;
+  width:245px;
 }
 
 .button1:hover { 

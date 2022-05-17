@@ -1,0 +1,53 @@
+/* font */ 
+.font {
+    font-family: "Comic Sans MS", "Comic Sans";
+  }
+
+  body { 
+    color: rgb(0, 0, 0); 
+    background-color:rgb(130, 178, 245);
+}
+
+.myText { 
+    background-color:rgb(0, 0, 0);
+    color:rgb(28, 95, 187);
+    padding:15px 15px;
+    margin:3px 3px;
+    font-size:30px;
+    text-align:center;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-item + .flex-item {
+  margin-left: 10px;
+}
+
+.button { 
+  background-color: rgb(255, 142, 200);
+  border: 1.5px rgb(200, 120, 162);
+  color:rgb(0, 0, 0);
+  text-align:center;
+  font-size: 40px;
+  font-family: "Comic Sans MS", "Comic Sans";
+  padding: 13px 26px;
+  cursor: pointer;
+  width:245px;
+}
+
+.button:hover { 
+  background-color:rgb(248, 179, 214);;
+}
+
+.footerText { 
+  font-size:15px;
+}
+
+img { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
