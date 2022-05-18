@@ -1,25 +1,25 @@
 
 /* font */
 .font {
-    font-family: "Comic Sans MS", "Comic Sans";
+  font-family: "Comic Sans MS", "Comic Sans";
   }
 
 /* header */
 .headerText { 
-    background-color:rgb(0, 0, 0);
-    color:rgb(28, 95, 187);
-    padding:3px 3px;
-    margin:5px 5px;
-    text-align:center;
-    border-style:dotted;
-    font-size:15px;
+  background-color:rgb(0, 0, 0);
+  color:rgb(28, 95, 187);
+  padding:3px 3px;
+  margin:5px 5px;
+  text-align:center;
+  border-style:dotted;
+  font-size:15px;
 }
 
   /* body edits */ 
-  body { 
-    color: rgb(0, 0, 0); 
-    background-color:rgb(132, 179, 245);
-    text-align: left;
+body { 
+  color: rgb(0, 0, 0); 
+  background-color:rgb(132, 179, 245);
+  text-align: left;
 }
 
 .myQu { 
@@ -30,13 +30,22 @@
   margin:15px 5px;
 }
 
-   .myCode {
+/* box with images */
+.imgStyle { 
+  background-color: rgb(73, 134, 219);
+  font-size:18px;
+  padding:15px 15px;
+  margin:15px 5px;
+}
+
+.myCode {
   background-color: rgb(86, 145, 227);
   color: black;
   font-size:18px;
   padding:15px 15px;
   margin:15px 5px;
 }
+
 
 /* buttons */
 .flex {
@@ -64,5 +73,14 @@
   background-color:rgb(248, 179, 214);
 }
 
+img { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.column {
+  column-count:3;
+}
 
 
