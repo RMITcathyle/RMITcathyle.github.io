@@ -16,19 +16,17 @@
 
     <body>
         <div class = "font"> 
-            <div class="myQu"> <!-- COME UP WITH DIALOGUE-->
-                Sporky needs to travel to the market to purchase a scarf however my 
-                tiny little legs cannot prolong for long distances therefore I must
-                utilise another means of transportation. The available options are a 
-                shiny, dazzling yellow car , a cute, resilient, sturdy camel or a 
-                small but fiesty scooter. 
+            <div class="myQu"> <!-- COME UP WITH DIALOGUE - fare fee -->
+                Thank you for helping Sporky calculate the fastest option. I went for a quick ride on the camel,
+                he was very kind and I arrived at the market in no time. Now, I need to pay the travel agencing
+                for their services. I'm definitely giving this camel 10 stars for the superb ride!    
                 <br>
                 <br>
-                Analysing the code, decide which option is the most time efficient for sporky.
+                Analysing the code, decide which option will be the total cost for sporky's fare fee.
             </div>
         </div>
 
-        <div class="imgStyle"> <!-- EDIT ME-->
+        <div class="imgStyle"> <!-- EDIT ME - new images?? or just one image -->
             <div class="column">
                 <img src="images/sporky_car.png" width="300px">
                 <img src="images/sporky_camel.png" width="300px"> 
@@ -37,8 +35,79 @@
         </div>
 
         <pre class="myCode">
-        
+        import java.util.Scanner;
+
+        public class MyClass {
+            public static void main(String[] args) {
+                Scanner scnr = new Scanner(System.in) {
+            
+                    int age = 10;
+                    int distance = 20;
+                    String transport = "camel";
+                    double cost = 0.0;
+            
+                    // DISTANCE
+                    if (distance < 21) {
+                        cost = distance * 3.0;
+                    }
+                    else if (distance < 30) {
+                        cost = distance * 4.0;
+                    }
+                    else {
+                        cost = distance * 6.0;
+                    }
+
+                    // AGE
+                    if (age < 6) {
+                        cost = cost + 0.0;
+                    }
+                    else if (age < 19) {
+                        cost = cost + 15.0;
+                    }
+                    else if (age < 61) {
+                        cost = cost + 25.0;
+                    }
+                    else {
+                        cost = cost + 20.0;
+                    }
+
+                    // TRANSPORT
+                    if (transport == "car") {
+                        cost = cost + 2.5;
+                    }
+                    if (transport == "camel") {
+                        cost = cost + 5.5;
+                    }
+                    if (transport == "scooter") {
+                        cost = cost + 3.5;
+                    }
+                    if (transport == "walking") {
+                    }
+
+                    System.out.printf("Sporky has to pay: $%.2f", cost);
+                }
+            }
+        }
         </pre>
+
+        <!-- FIXX MEEEEE-->
+        <div class="flex">
+            <a href="incorrect3.html" class="flex-item"> 
+                <button class="button">car</button>
+            </a>
+
+            <a href="incorrect3.html" class="flex-item">
+                <button class="button">camel</button>
+            </a>
+
+            <a href="incorrect3.html" class="flex-item">
+                <button class="button">scooter</button>
+            </a>
+
+            <a href="game4.html" class="flex-item">
+                <button class="button">walk</button>
+            </a>
+        </div>
 
     </body>
 
