@@ -15,19 +15,6 @@
   font-size:15px;
 }
 
-
-/* img button - figure out FIXX MEEE */
-.menuButton { 
-  background-image: url(images/menu.png);
-  cursor:pointer;
-  width:100px;
-  length:100px;
-}
-
-.float { 
-  float:left; 
-}
-
   /* body edits */ 
 body { 
   color: rgb(0, 0, 0);
@@ -67,10 +54,6 @@ body {
 
 .flex-item + .flex-item {
   margin-left: 10px;
-}
-
-.menu { 
-  font-size: 30px;
 }
 
 .button { 
