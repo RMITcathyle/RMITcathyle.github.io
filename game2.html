@@ -3,96 +3,107 @@
     <link rel="stylesheet" href="game1.css">
 
     <head> 
-        <title>sporky has his scarf</title>
+        <title>camellllll</title>
         <div class="headerText"> 
             <h1 class="font"> 
-                sporky wants to go to the market
+                sporky went on a camel ride 
             </h1>
         </div>
     </head> 
 
-
     <body>
         <div class = "font"> 
-            <div class="myQu">
-                Sporky needs to travel to purchase a new scarf however my 
-                tiny little legs cannot prolong for long distances therefore I must
-                utilise another means of transportation. The available options are a 
-                shiny, dazzling yellow car , a cute, resilient, sturdy camel, a small
-                but fiesty scooter or I can just walk there with my short stubby legs.  
+            <div class="myQu"> <!-- COME UP WITH DIALOGUE - fare fee -->
+                Thank you for helping Sporky calculate the fastest option. I went for a quick ride on the camel,
+                he was very kind and I arrived at the market in no time. I'm definitely giving this camel 10 stars 
+                for the superb ride! Now, I need to pay the travel agencing for their services.
                 <br>
                 <br>
-                Analysing the code, decide which option is the most time efficient for sporky.
+                Analysing the code, decide which option will be the <b>total cost</b> for sporky's fare fee.
             </div>
         </div>
 
-        <div class="imgStyle"> 
-            <div class="frColumns"> 
-                <img src="images/scarf_car.png" width="330px">
-                <img src="images/scarf_camel.png" width="320px"> 
-                <img src="images/scarf_scoot.png" width="310px">
-                <img src="images/scarf.png" width="300px">
-            </div> 
+        <div class="imgStyle">
+            <div class="column">
+                <img src="images/money.png" width="520px">
+            </div>
         </div>
 
-        <!-- finalised ! -->
         <pre class="myCode">
+        import java.util.Scanner;
+
         public class MyClass {
-             public static void main(String[] args) {
-                int carSpeed = 30;
-                int camelSpeed = 60;
-                int scooterSpeed = 20;
-                int walkingSpeed = 5;
+            public static void main(String[] args) {
+                Scanner scnr = new Scanner(System.in) {
             
-                int carTime;   
-                int camelTime;
-                int scooterTime;
-                int walkingTime;
+                    int age = 10;
+                    int distance = 20;
+                    String transport = "camel";
+                    double cost = 0.0;
             
-                int distance = 60;
-            
-                // TIME = DISTANCE/SPEED;
-                carTime = distance/carSpeed;
-                camelTime = distance/camelSpeed;
-                scooterTime = distance/scooterSpeed;
-                walkingTime = distance/walkingSpeed;
-            
-            
-                System.out.println("Sporky travelled for: " + distance + "km");
-                    
-                System.out.print("Car: " + carTime );
-                System.out.println(" hour/s");
-            
-                System.out.print("Camel: " + camelTime);
-                System.out.println(" hour/s");
-            
-                System.out.print("Scooter: " + scooterTime);
-                System.out.println(" hour/s");
-            
-                System.out.print("Walking: " + walkingTime);
-                System.out.println(" hour/s");
-            
+                    // DISTANCE
+                    if (distance < 21) {
+                        cost = distance * 3.0;
+                    }
+                    else if (distance < 30) {
+                        cost = distance * 4.0;
+                    }
+                    else {
+                        cost = distance * 6.0;
+                    }
+
+                    // AGE
+                    if (age < 6) {
+                        cost = cost + 0.0;
+                    }
+                    else if (age < 19) {
+                        cost = cost + 15.0;
+                    }
+                    else if (age < 61) {
+                        cost = cost + 25.0;
+                    }
+                    else {
+                        cost = cost + 20.0;
+                    }
+
+                    // TRANSPORT
+                    if (transport == "car") {
+                        cost = cost + 2.5;
+                    }
+                    if (transport == "camel") {
+                        cost = cost + 5.5;
+                    }
+                    if (transport == "scooter") {
+                        cost = cost + 3.5;
+                    }
+                    if (transport == "walking") {
+                    }
+
+                    System.out.printf("Sporky has to pay: $%.2f", cost);
+                }
             }
         }
-            </pre>
-            
-            <div class="flex">
-                <a href="incorrect2.html" class="flex-item"> 
-                    <button class="button">car</button>
-                </a>
+        </pre>
 
-                <a href="correct2.html" class="flex-item">
-                    <button class="button">camel</button>
-                </a>
-    
-                <a href="incorrect2.html" class="flex-item">
-                    <button class="button">scooter</button>
-                </a>
-    
-                <a href="incorrect2.html" class="flex-item">
-                    <button class="button">walk</button>
-                </a>
-            </div>
+        
+        <div class="flex">
+            <a href="incorrect3.html" class="flex-item"> 
+                <button class="button">$85.50</button>
+            </a>
+
+            <a href="incorrect3.html" class="flex-item">
+                <button class="button">$125.50</button>
+            </a>
+
+            <a href="incorrect3.html" class="flex-item">
+                <button class="button">$70.50</button>
+            </a>
+
+            <a href="correct3.html" class="flex-item">
+                <button class="button">$80.50</button>
+            </a>
+        </div>
+
     </body>
 
     <br>

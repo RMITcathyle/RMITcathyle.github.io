@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html> 
+    <link rel="stylesheet" href="game4.css">
+
+    <head> 
+        <title>rainbow cotton</title>
+        <div class="headerText"> 
+            <h1 class="font"> 
+                excellent choice!! this scarf is such a beautiful colour 
+            </h1>
+        </div>
+    </head> 
+
+    <body>
+        <div class = "font"> 
+            <div class="myQu">
+                Sporky has spent quite a lot of money on our adventure today. I am getting a little bit hungry and not
+                too sure if I should buy some food. 
+                <br>
+                <br>
+                The code below calculates Sporky's total spendings so far today. To decide whether sporky should buy 
+                something to eat, decipher the output and select what he will buy. 
+            </div>
+        </div>
+
+        <div class="imgStyle">
+             <div>
+                  <img src="scarf_rainb.png" width="350px">
+               </div>
+        </div>
+
+        <!-- doneee -->
+        <pre class="myCode">
+     import java.util.Scanner;
+
+     public class MyClass {
+          public static void main(String[] args) {
+               Scanner inputCost = null;
+               double[] cost = new double[2];
+               String travelCost;
+               double totalCost = 0;
+               int i;
+          
+               travelCost = "80.5 45.00";
+          
+               inputCost = new Scanner(travelCost);
+          
+               for(i=0; i < 2; ++i) {
+                    cost[i] = inputCost.nextDouble();
+                    totalCost = totalCost + cost[i];
+               }
+          
+               System.out.printf("Sporky has spent $%.2f", totalCost);
+               System.out.println();
+               System.out.println();
+          
+               //FOOD SPORKY BUYS
+               System.out.print("With Sporky's remaining money, ");
+               if (totalCost <= 115.50) {
+                      System.out.println("Sporky will get a steak meal.");
+               }
+               else if (totalCost <= 121.00) {
+                    System.out.println("Sporky will get a pepperoni pizza.");
+               }
+               else if (totalCost <= 125.50) {
+                    System.out.println("Sporky will get a cheeseburger.");
+               }
+               else {
+                    System.out.println("he is too broke to buy any food.");
+               } 
+          }
+     }
+        </pre>
+
+        
+        <div class="flex">
+            <a href="xrainbow.html" class="flex-item"> 
+                <button class="button">steak meal</button>
+            </a>
+
+            <a href="xrainbow.html" class="flex-item">
+                <button class="button">pepperoni pizza</button>
+            </a>
+
+            <a href="end.html" class="flex-item">
+                <button class="button">cheeseburger</button>
+            </a>
+
+            <a href="xrainbow.html" class="flex-item">
+                <button class="button">nothing</button>
+            </a>
+        </div>
+
+    </body>
+
+    <br>
+    <br>
+    <footer>
+        <p class="footerText">
+        Artwork and dialogue is inspired by Disney Pixar's Forky from Toy Story 4
+       </p>
+   </footer>
+
+</html>
