@@ -15,11 +15,11 @@
    }
    
      /* body edits */ 
-   body { 
-     color: rgb(0, 0, 0);
-     background-color:rgb(132, 179, 245);
-     text-align: left;
-   }
+     body { 
+      color: rgb(0, 0, 0); 
+      background-image: url(../images/background.png);
+      background-size:100%;
+  }
    
    .myQu { 
      background-color: rgb(61, 122, 208);
